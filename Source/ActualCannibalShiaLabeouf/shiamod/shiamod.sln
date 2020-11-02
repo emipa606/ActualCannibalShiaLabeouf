@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shiamod", "shiamod\shiamod.csproj", "{A76878B3-2ECF-4A21-8C3B-5E129B5224FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A76878B3-2ECF-4A21-8C3B-5E129B5224FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76878B3-2ECF-4A21-8C3B-5E129B5224FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76878B3-2ECF-4A21-8C3B-5E129B5224FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76878B3-2ECF-4A21-8C3B-5E129B5224FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

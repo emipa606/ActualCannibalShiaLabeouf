@@ -1,0 +1,64 @@
+﻿//static Boolean canFire = true;
+		//
+		// Methods
+		//
+		protected override void ResolveRaidArriveMode(IncidentParms parms)
+		{
+
+			parms.raidArrivalMode = PawnsArriveMode.EdgeWalkIn;
+		}
+
+
+		protected override void ResolveRaidPoints(IncidentParms parms)
+		{
+			if (parms.points > 0f)
+			{
+				return;
+			}
+			parms.points = (float)50;
+		}
+
+		protected override bool FactionCanBeGroupSource(Faction f, Map map, bool desperate = false)
+		{
+			return false;
+		}
+
+		protected override LetterType GetLetterType()
+		{
+			return LetterType.BadUrgent;
+		}
+
+		protected override string GetLetterLabel(IncidentParms parms)
+		{
+			return "Shia Surprise";
+		}
+
+		protected override string GetLetterText(IncidentParms parms, List<Pawn> pawns)
+		{
+			return "You're walking in the woods. There's no one around and your phone is dead. Out of the corner of your eye, you spot him: Shia Labeouf!";
+		}
+
+		protected override string GetRelatedPawnsInfoLetterText(IncidentParms parms)
+		{
+			return "Hollywood Cannibals";
+		}
+
+		protected override void ResolveRaidStrategy(IncidentParms parms)
+		{
+			parms.raidStrategy = RaidStrategyDefOf.ImmediateAttack;
+		}
+
+
+		protected override bool TryResolveRaidFaction(IncidentParms parms)
+		{
+
+			if (!(from f in Find.FactionManager.AllFactions
+				  where f.def == FactionDef.Named("HollywoodCannibals")
+				  select f).TryRandomElement(out parms.faction))
+			{
+				Log.Error("IncidentWorker_RaidEnemysadad could not ");
+				return false;
+
+			}
+			return true;
+		}
