@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+		<modNameReadable>ActualCannibalShiaLabeouf</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2275281820</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>ActualCannibalShiaLabeouf_1_0_1_0</defName>
+		<assemblyVersion>1.0.1.0</assemblyVersion>
+		<content>This mod has been continued by the modder Friedman and this version will not be further updated. Please switch to that version, link is on the mod-page
+</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

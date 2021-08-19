@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Actual Cannibal Shia Labeouf (Continued)</name>
   <packageId>Mlie.ActualCannibalShiaLabeouf</packageId>
@@ -29,24 +29,31 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1866811523
 [/table]
 	
 [img]https://i.imgur.com/NOW7jU1.png[/img]
-[b]***THIS IS THE 1.0 VERSION OF THIS MOD, FOR B17 SEE LINK BELOW***[/b]
-https://steamcommunity.com/sharedfiles/filedetails/?id=868663215
 
+[h1]Watch out it&apos;s Shia Labeouf![/h1]
 
-[h1]Watch out it's Shia Labeouf![/h1]
-
-This mod adds a new incident to the game - "Shia Surprise". A wild Shia will immediately attack your colony, he carries a unique bloody axe which he will not hessitate to use on your colonists.
+This mod adds a new incident to the game - &quot;Shia Surprise&quot;. A wild Shia will immediately attack your colony, he carries a unique bloody axe which he will not hessitate to use on your colonists.
 While he may not prove a threat to well established colonies his armor and high melee stat should not be taken lightly. Brave colonist may even attempt to capture your own Shia. What you do with him is up to you but bewarned he is notoriously hard to recruit.
 
-[b]But where's the music?[/b]
-It's a copy-righted song so I'm not uploading it to the workshop. 
-However if you do happen to own a copy of the song, you can add it by replacing the shia.wav found in the "/Sounds" folder for this mod. 
+[b]But where&apos;s the music?[/b]
+It&apos;s a copy-righted song so I&apos;m not uploading it to the workshop. 
+However if you do happen to own a copy of the song, you can add it by replacing the shia.wav found in the &quot;/Sounds&quot; folder for this mod. 
 
 This event can be manually initiated through the debug menu under incidents if you feel impatient.
 
 If this reference is lost on you, checkout the video above.
 
-Author's Note: All credit for original development of this mod goes to Sectoid. I just updated this mod for 1.0 with their permission. In addition i have made Shia a tad more deadly in this 1.0 edition.
+Author&apos;s Note: All credit for original development of this mod goes to Sectoid. I just updated this mod for 1.0 with their permission. In addition i have made Shia a tad more deadly in this 1.0 edition.
 
-[b]*Users are reporting issues with Combat Extended, treat this as non-compatible.*[/b]</description>
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
